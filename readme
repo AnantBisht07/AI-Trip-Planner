@@ -1,0 +1,35 @@
+What is Debouncing?
+-> Debouncing is a technique used to control the frequency of function execution, especially in scenarios like user input or search fields where the function could be triggered multiple times in quick succession. In simple terms, debouncing helps to "delay" the execution of a function until the user stops performing actions for a certain amount of time.
+
+
+Simple Example:
+Imagine you're typing a search term in a text field, and every time you type a letter, the application tries to fetch search results from a server. Without debouncing, the server might receive a request for each letter you type, even though you're not done typing the full search term yet.
+With debouncing, the server request will only be made after you stop typing for a short period (e.g., 500 milliseconds). This prevents unnecessary requests while you're still typing.
+
+How Does Debouncing Work?
+Without Debouncing: Every keystroke triggers an action (like an API call).
+With Debouncing: The action (e.g., an API call) is only triggered after the user stops typing for a certain time (e.g., 500ms).
+
+
+Why is Debouncing Useful?
+
+Improves Performance:
+Reduces unnecessary calls: Without debouncing, each keystroke triggers an action (like an API call). This could overwhelm the server or cause slow performance. Debouncing minimizes this by reducing the number of calls made
+
+Saves Resources:
+Prevents overloading the server: If each keystroke triggers an API call, the server may get flooded with requests. Debouncing ensures that only the final, relevant input triggers an action
+
+Enhances User Experience:
+Faster feedback: It ensures the user doesn’t experience delays caused by excessive requests. For example, search suggestions will appear quickly after the user stops typing, rather than after each keystroke.
+
+
+
+Example Without Debouncing:
+User types "cat".
+1st API call for "c"
+2nd API call for "ca"
+3rd API call for "cat"
+
+Example With Debouncing:
+User types "cat".
+API call is triggered only once, after the user stops typing for a short period.
