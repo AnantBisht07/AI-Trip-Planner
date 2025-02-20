@@ -1,8 +1,11 @@
-# React + Vite
+🚀 Important Notice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I haven't deployed this project due to the Google Maps API integration, as the API service I used does not offer free deployment access. However, I have provided a demo video and screenshots showcasing the project in action.
 
-Currently, two official plugins are available:
+🔗 Check out the demo here: 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://drive.google.com/drive/folders/1I7QUoK_Tr6od9F9dtLw0gaxcDzpNAbqa
+
+or
+
+https://www.veed.io/view/c8a16bae-4611-4a4a-a8fe-f6fcdd96f11a?panel=share
